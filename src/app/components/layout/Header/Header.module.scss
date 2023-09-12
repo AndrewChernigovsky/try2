@@ -1,0 +1,26 @@
+@import './../../../styles//variables.scss';
+
+.header {
+background-color: red;
+	&__wrapper {
+		background-color: red;
+	}
+}
+
+.nav {
+background-color: blue;
+
+&__list {
+	display: flex;
+	justify-content: flex-start;
+	gap: 10px;
+}
+
+&__item {
+	padding: 10px;
+
+	a {
+		color: $white;
+	}
+}
+}

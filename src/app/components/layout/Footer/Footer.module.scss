@@ -1,0 +1,20 @@
+@import './../../../styles//variables.scss';
+
+.footer {
+background-color: red;
+}
+
+.social {
+background-color: blue;
+
+&__list {
+	display: flex;
+	justify-content: flex-start;
+	gap: 10px;
+}
+
+&__item {
+	padding: 10px;
+	color: $white;
+}
+}
